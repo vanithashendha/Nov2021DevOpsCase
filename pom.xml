@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+        <modelVersion>4.0.0</modelVersion>
+
+        <groupId>com.example</groupId>
+        <artifactId>fis-devops</artifactId>
+        <version>1.1.1-SNAPSHOT</version>
+        <packaging>war</packaging>
+
+        <name>fis-devops</name>
+        <description>DevOps Demo Project for D1</description>
+
+        <parent>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-parent</artifactId>
+                <version>1.5.6.RELEASE</version>
+                <relativePath /> <!-- lookup parent from repository -->
+        </parent>
+
+        <properties>
+                <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+                <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+                <java.version>1.8</java.version>
+                <surefire.version>2.17</surefire.version>
+                <jacoco.version>0.7.9</jacoco.version>
+        </properties>
+
+        <!-- <distributionManagement>
+                <repository>
+                  <id>release</id>
+                  <name>demo-libs-release</name>
+                  <url>http://10.7.142.127:8082/artifactory/demo-libs-release/</url>
+                </repository>
+                <snapshotRepository>
+                  <id>snapshots</id>
+                  <name>demo-libs-snapshot</name>
+                  <url>http://10.7.142.127:8082/artifactory/demo-libs-snapshot/</url>
+                </snapshotRepository>
+        </distributionManagement>
+-->
+<distributionManagement>
+  <snapshotRepository>
